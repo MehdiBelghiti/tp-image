@@ -1,4 +1,4 @@
-# Projet de Traitement d'Images avec BoofCV
+[hisyogramme.txt](https://github.com/user-attachments/files/18816328/hisyogramme.txt)# Projet de Traitement d'Images avec BoofCV
 
 Ce projet présente plusieurs filtres et transformations d'images réalisés avec la bibliothèque [BoofCV](https://boofcv.org). L’objectif principal est d'implémenter différentes opérations sur des images en niveaux de gris et en couleur.
 
@@ -108,6 +108,173 @@ Les principales fonctionnalités implémentées sont :
   - L'intensité des pixels dans cette image correspond à la densité de pixels dans le bin (après normalisation).
 
 ---
+
+## Exemples d'Images
+- **Luminosité :**
+![image-1-low_dynamic-BrightnessAdjust](https://github.com/user-attachments/assets/f35a13d8-a2b4-4725-9dab-94d1c6b0c53a)
+![Tp-1-Q2-beach-BrightnessAdjust](https://github.com/user-attachments/assets/8984f9c7-0c37-4213-854e-e4f4993194de)
+
+- **Réglage du contraste : dynamique de l'image :**
+![image-1-low_dynamic-corrected](https://github.com/user-attachments/assets/79b144c6-b60e-4433-b422-a6a46e90c7c5)
+
+- **Réglage du contraste : égalisation d'histogramme :**
+[UploadingHistogramme de la bande 0 :
+Niveau 94 : 4790 pixels
+Niveau 96 : 1 pixels
+Niveau 97 : 14 pixels
+Niveau 98 : 791 pixels
+Niveau 99 : 8825 pixels
+Niveau 100 : 14917 pixels
+Niveau 101 : 20616 pixels
+Niveau 102 : 16623 pixels
+Niveau 103 : 14411 pixels
+Niveau 104 : 9612 pixels
+Niveau 105 : 10911 pixels
+Niveau 106 : 9271 pixels
+Niveau 107 : 8623 pixels
+Niveau 108 : 6517 pixels
+Niveau 109 : 9366 pixels
+Niveau 110 : 10491 pixels
+Niveau 111 : 11112 pixels
+Niveau 112 : 11210 pixels
+Niveau 113 : 8783 pixels
+Niveau 114 : 11637 pixels
+Niveau 115 : 10423 pixels
+Niveau 116 : 8726 pixels
+Niveau 117 : 5622 pixels
+Niveau 118 : 6910 pixels
+Niveau 119 : 6806 pixels
+Niveau 120 : 6747 pixels
+Niveau 121 : 4964 pixels
+Niveau 122 : 7509 pixels
+Niveau 123 : 8437 pixels
+Niveau 124 : 8998 pixels
+Niveau 125 : 6813 pixels
+Niveau 126 : 9060 pixels
+Niveau 127 : 10670 pixels
+Niveau 128 : 13139 pixels
+Niveau 129 : 12318 pixels
+Niveau 130 : 7845 pixels
+Niveau 131 : 10447 pixels
+Niveau 132 : 12625 pixels
+Niveau 133 : 14355 pixels
+Niveau 134 : 11617 pixels
+Niveau 135 : 18699 pixels
+Niveau 136 : 18307 pixels
+Niveau 137 : 13508 pixels
+Niveau 138 : 7190 pixels
+Niveau 139 : 7018 pixels
+Niveau 140 : 5854 pixels
+Niveau 141 : 5321 pixels
+Niveau 142 : 3479 pixels
+Niveau 143 : 4457 pixels
+Niveau 144 : 3991 pixels
+Niveau 145 : 3744 pixels
+Niveau 146 : 3790 pixels
+Niveau 147 : 2849 pixels
+Niveau 148 : 3875 pixels
+Niveau 149 : 4075 pixels
+Niveau 150 : 4028 pixels
+Niveau 151 : 2823 pixels
+Niveau 152 : 4229 pixels
+Niveau 153 : 5075 pixels
+Niveau 154 : 5753 pixels
+Niveau 155 : 3550 pixels
+Niveau 156 : 2225 pixels
+Niveau 157 : 577 pixels
+Niveau 158 : 216 pixels
+Niveau 159 : 147 pixels
+Niveau 160 : 776 pixels
+Niveau 161 : 3892 pixels
+Appliquer l'extension de la dynamique par LUT...
+Histogramme de la bande 0 :
+Niveau 0 : 4790 pixels
+Niveau 7 : 1 pixels
+Niveau 11 : 14 pixels
+Niveau 15 : 791 pixels
+Niveau 19 : 8825 pixels
+Niveau 22 : 14917 pixels
+Niveau 26 : 20616 pixels
+Niveau 30 : 16623 pixels
+Niveau 34 : 14411 pixels
+Niveau 38 : 9612 pixels
+Niveau 41 : 10911 pixels
+Niveau 45 : 9271 pixels
+Niveau 49 : 8623 pixels
+Niveau 53 : 6517 pixels
+Niveau 57 : 9366 pixels
+Niveau 60 : 10491 pixels
+Niveau 64 : 11112 pixels
+Niveau 68 : 11210 pixels
+Niveau 72 : 8783 pixels
+Niveau 76 : 11637 pixels
+Niveau 79 : 10423 pixels
+Niveau 83 : 8726 pixels
+Niveau 87 : 5622 pixels
+Niveau 91 : 6910 pixels
+Niveau 95 : 6806 pixels
+Niveau 98 : 6747 pixels
+Niveau 102 : 4964 pixels
+Niveau 106 : 7509 pixels
+Niveau 110 : 8437 pixels
+Niveau 114 : 8998 pixels
+Niveau 117 : 6813 pixels
+Niveau 121 : 9060 pixels
+Niveau 125 : 10670 pixels
+Niveau 129 : 13139 pixels
+Niveau 133 : 12318 pixels
+Niveau 137 : 7845 pixels
+Niveau 140 : 10447 pixels
+Niveau 144 : 12625 pixels
+Niveau 148 : 14355 pixels
+Niveau 152 : 11617 pixels
+Niveau 156 : 18699 pixels
+Niveau 159 : 18307 pixels
+Niveau 163 : 13508 pixels
+Niveau 167 : 7190 pixels
+Niveau 171 : 7018 pixels
+Niveau 175 : 5854 pixels
+Niveau 178 : 5321 pixels
+Niveau 182 : 3479 pixels
+Niveau 186 : 4457 pixels
+Niveau 190 : 3991 pixels
+Niveau 194 : 3744 pixels
+Niveau 197 : 3790 pixels
+Niveau 201 : 2849 pixels
+Niveau 205 : 3875 pixels
+Niveau 209 : 4075 pixels
+Niveau 213 : 4028 pixels
+Niveau 216 : 2823 pixels
+Niveau 220 : 4229 pixels
+Niveau 224 : 5075 pixels
+Niveau 228 : 5753 pixels
+Niveau 232 : 3550 pixels
+Niveau 235 : 2225 pixels
+Niveau 239 : 577 pixels
+Niveau 243 : 216 pixels
+Niveau 247 : 147 pixels
+Niveau 251 : 776 pixels
+Niveau 255 : 3892 pixels
+![image-1-low_dynamic-grayscale-1](https://github.com/user-attachments/assets/e1ad32c6-2d9a-435b-bab6-6e00efd14043)
+
+- **Filtre moyenneur :**
+![street-meanfilter](https://github.com/user-attachments/assets/c8cbf94b-d1fb-4448-a226-bf3692a43e10)
+
+- **Gradient :**
+![street-gradient](https://github.com/user-attachments/assets/1fdbe46f-5fe4-4635-9967-08a6ea862a62)
+- **Gradient Prewitt:**
+![street-gradientPrewitt](https://github.com/user-attachments/assets/83c32c19-a977-45b5-84e4-b2e58c46dc63)
+- **Gradient Sobel:**
+![street-gradientSobel](https://github.com/user-attachments/assets/59b1521b-811c-41c2-9bd1-ccca89fbdcde)
+
+- **Luminosité Image Coloré :**
+![birds-brightness](https://github.com/user-attachments/assets/f2e7bc3b-7ec3-4e48-9612-e9aeadf641c1)
+
+- **Conversion RGB/HSV :**
+![maldives-1](https://github.com/user-attachments/assets/14c062b2-57f8-4531-b7d2-1d1030f5b701)
+
+---
+
 
 ## Difficultés Rencontrées
 
