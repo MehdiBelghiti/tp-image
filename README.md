@@ -111,10 +111,17 @@ Les principales fonctionnalités implémentées sont :
 
 ## Exemples d'Images
 - **Luminosité :**
+  Avant: ![beach](https://github.com/user-attachments/assets/6db82bb9-151d-4123-b327-011f8f5c068a)
+![image-1-low_dynamic](https://github.com/user-attachments/assets/85020902-6ed8-4d5c-9cd7-0f1a1dc70136)
+
+  Après:
 ![image-1-low_dynamic-BrightnessAdjust](https://github.com/user-attachments/assets/f35a13d8-a2b4-4725-9dab-94d1c6b0c53a)
 ![Tp-1-Q2-beach-BrightnessAdjust](https://github.com/user-attachments/assets/8984f9c7-0c37-4213-854e-e4f4993194de)
 
 - **Réglage du contraste : dynamique de l'image :**
+  Avant: 
+![image-1-low_dynamic](https://github.com/user-attachments/assets/85020902-6ed8-4d5c-9cd7-0f1a1dc70136)
+  Après:
 ![image-1-low_dynamic-corrected](https://github.com/user-attachments/assets/79b144c6-b60e-4433-b422-a6a46e90c7c5)
 
 - **Réglage du contraste : égalisation d'histogramme :**
@@ -258,19 +265,37 @@ Niveau 255 : 3892 pixels
 ![image-1-low_dynamic-grayscale-1](https://github.com/user-attachments/assets/e1ad32c6-2d9a-435b-bab6-6e00efd14043)
 
 - **Filtre moyenneur :**
+  Avant: ![street](https://github.com/user-attachments/assets/6167e86e-2b21-4fea-b5af-d0c6157e8867)
+
+  Après:
 ![street-meanfilter](https://github.com/user-attachments/assets/c8cbf94b-d1fb-4448-a226-bf3692a43e10)
 
 - **Gradient :**
+  Avant: ![street](https://github.com/user-attachments/assets/6167e86e-2b21-4fea-b5af-d0c6157e8867)
+
+  Après:
 ![street-gradient](https://github.com/user-attachments/assets/1fdbe46f-5fe4-4635-9967-08a6ea862a62)
 - **Gradient Prewitt:**
+  Avant: ![street](https://github.com/user-attachments/assets/6167e86e-2b21-4fea-b5af-d0c6157e8867)
+
+  Après:
 ![street-gradientPrewitt](https://github.com/user-attachments/assets/83c32c19-a977-45b5-84e4-b2e58c46dc63)
 - **Gradient Sobel:**
+  Avant: ![street](https://github.com/user-attachments/assets/6167e86e-2b21-4fea-b5af-d0c6157e8867)
+
+  Après:
 ![street-gradientSobel](https://github.com/user-attachments/assets/59b1521b-811c-41c2-9bd1-ccca89fbdcde)
 
 - **Luminosité Image Coloré :**
+  Avant: ![birds](https://github.com/user-attachments/assets/7298e18f-8507-4b9c-bfdb-9a4b8ed3fdeb)
+
+  Après:
 ![birds-brightness](https://github.com/user-attachments/assets/f2e7bc3b-7ec3-4e48-9612-e9aeadf641c1)
 
 - **Conversion RGB/HSV :**
+  Avant: ![maldives](https://github.com/user-attachments/assets/8ebe603c-8950-47f1-a16b-444a0ac3f9e3)
+
+  Après:
 ![maldives-1](https://github.com/user-attachments/assets/14c062b2-57f8-4531-b7d2-1d1030f5b701)
 
 ---
